@@ -38,15 +38,3 @@ chmod +x /home/leo/install_master.sh
     Renommez le Clone pour votre projet (Ex: Serveur-Web-Projet-X).
 
     Changez l'adresse IP (/etc/network/interfaces) du nouveau clone pour qu'elle soit unique (Ex: .51, .52, etc.) avant de le démarrer.
-
-
-### ⏭️ Prochaine Étape
-
-1.  **Copiez ce code** et créez le fichier `README.md` dans Visual Studio Code.
-2.  **Sauvegardez-le** dans le répertoire local de votre dépôt Git (`/home/leo/debian-scripts` sur votre VM, si vous utilisez VS Code via SSH).
-3.  **Poussez-le sur GitHub** avec les commandes :
-
-```bash
-git add README.md
-git commit -m "Ajout du fichier README.md de documentation pour le script MASTER V3"
-git push origin master
