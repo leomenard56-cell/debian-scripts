@@ -8,8 +8,8 @@ Il configure le réseau en IP statique, installe un ensemble complet d'outils d'
 
 | Paramètre | Valeur Configurée | Détails |
 | :--- | :--- | :--- |
-| **Adresse IP** | `192.168.1.50/24` | IP Statique pour l'interface `ens33`. **(À changer sur les clones)** |
-| **Passerelle** | `192.168.1.254` | Passé à votre routeur. |
+| **Adresse IP** | `192.168.x.y/24` | IP Statique pour l'interface `ens33`. **(À changer sur les clones)** |
+| **Passerelle** | `192.168.x.254` | Passé à votre routeur. |
 | **DNS** | `192.168.1.254` et `8.8.8.8` | Serveurs DNS primaires et secondaires. |
 | **Pare-feu** | UFW (Activé) | Bloque tout sauf les ports 22 (SSH) et 10000 (Webmin). |
 
